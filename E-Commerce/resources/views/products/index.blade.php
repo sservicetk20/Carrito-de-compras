@@ -1,7 +1,7 @@
 @extends("layouts.app");
 
 @section("content")
-    <div class="big-padding text-center blue-grey white-text">
+    <div class="big-padding text-center red-color white-text">
         <h1>Productos</h1>
     </div>
     <div class="container">
@@ -27,5 +27,10 @@
                 @endforeach
             </tbody>
         </table>
+    </div>
+    <div class="floating">
+     <a href="{{url('/products/create')}}" class="btn btn-primary btn-fab">
+      <i class="material-icons">add</i>
+     </a>
     </div>
 @endsection

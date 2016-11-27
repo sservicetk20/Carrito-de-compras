@@ -1,6 +1,11 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-@import "variables";
-
+//@import "variables";
+body {
+  font-family: 'Lato';
+}
+.fa-btn {
+  margin-right: 6px;
+}
 .navbar{
   margin-bottom: 0px;
 }
@@ -11,6 +16,9 @@
 .blue-grey{
   background-color: #37474f;
 }
+.red-color{
+  background-color: #194040;
+}
 
 .white-text{
   color: white;
@@ -18,4 +26,13 @@
 
 .table{
   background-color: white;
+}
+.white{
+  background-color: white;
+}
+.floating{
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 100;
 }
